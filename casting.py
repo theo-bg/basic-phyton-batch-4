@@ -9,7 +9,7 @@ d = float(c)
 print(type(d))
 print(d)
 
-e="abc"
+e="2"
 f=float(e)
 print(type(f))
 print(f)
