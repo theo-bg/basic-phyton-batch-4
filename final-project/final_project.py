@@ -56,7 +56,7 @@ msg = MIMEMultipart()
 #Choose Attachment
 
 if add_atch == "Y":
-    atch_file= input("Attachment (1 file)            : ")   #input attachment with the file type ex: file_test.docx
+    atch_file= input("Attachment (1 file)            : ")   #input attachment with the file type ex: file_test.txt
     # Open file in binary mode
     attachment = open(atch_file,"rb") 
     # Add file as application/octet-stream
